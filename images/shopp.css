@@ -1,0 +1,286 @@
+ 
+ body{
+   background-color:#e6f2ff;
+   }
+ 
+
+#slider{
+	margin-top: 105px;
+	overflow: hidden;
+	
+}
+#slider figure img{
+	float:left;
+	width: 20%;
+	z-index: 5;
+}
+#slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left:0;
+	text-align: left;
+	font-size:0;
+	animation: 30s slidy infinite;
+	animation-timing-function: linear;
+}
+
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+/*#sidebar{
+	width:250px;
+	height:600px;
+	background-color:#dcd4cf;
+	float:left;
+	margin-top: 40px;
+}*/
+/*#mainbody{
+	width:650px;
+	height:600px;
+	float:right;
+	background-color:#dcd4cf;
+	margin-top: 40px;
+}*/
+table{
+		 width:80%;
+		 margin-top: 60px;
+	 }
+	 td{
+		 padding:20px;
+		 
+	 }
+	 h1{
+		 margin-left: 90px;
+		 
+	 }
+	 h2{
+		margin-left: 90px;
+        color:	#808080;	
+		
+	 }
+	
+#footer{
+	margin-left:600px;
+	color: black;
+	font-size: 0.95em;
+    margin-top:-20px;
+    
+}
+#button1{
+    text-align:center;
+	font-size: 20px;
+	border-radius: 5.5px;
+	
+	
+	
+	
+  }
+  #button2{
+	  text-align:center;
+	font-size: 20px;
+ border-radius: 5.5px;
+}
+.ad{
+	float:left;
+	margin-left:650px;
+	margin-top:-79.5px;
+}
+.add{
+	float:left;
+	margin-left:710px;
+	margin-top:50px;
+}
+.adr{
+float:left;
+	margin-left:680px;	
+	margin-top:-43px;
+}
+.icons{
+	margin-top: 70px;
+}
+#contactus{
+    margin-left: 49.5%;
+    margin-top: -100px;
+}
+/*----- Menu Outline -----*/
+.menu-wrap {
+    width:100%;
+    background:red;
+    margin-left:70px;
+}
+.menu {
+    width:500px;
+    margin:0px auto
+    float:left;
+    font-size:25px;
+    padding-left: 10px;
+}
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+    font-size:25px;
+}
+.menu a {
+    transition:all linear 0.15s;
+    color:#FF0000;
+    font-size:19px;
+}
+.menu li > a, .menu .current-item > a {
+    text-decoration:none;
+    color:black;
+    margin-left:-40px;
+    padding-left:10px;
+}
+.menu .arrow {
+    font-size:25px;
+    line-height:0%;
+}
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:block;
+    position:relative;
+    font-size:20px;
+}
+.menu > ul > li > a {
+    margin-right:50px;
+    margin-left:-80px;
+    display:block;
+    z-index:4;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background: none;
+}
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:5;
+    opacity:1;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.sub-menu {
+    width:100%;
+    padding:0px 20px;
+    position:absolute;
+    top:70%;
+    left:0px;
+    z-index:4;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#FF0000;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.sub-menu li {
+    display:inline-block;
+    font-size:15px;
+    z-index:4;
+}
+.sub-menu li a {
+    padding:5px 30px;
+    display:inline-block;
+    z-index:4;
+}
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background: none;
+    z-index:4;
+}
+
+.clearfix:after {
+    display:inline-block;
+    clear:both;
+    float:left;
+}
+/*----- Menu Outline -----*/
+.menu-wrap {
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background: none;
+}
+.menu {
+    width:1000px;
+    margin:5px auto;
+}
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+.menu a {
+    transition:all linear 0.15s;
+    color: none;
+}
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color: white;														<!--TEXT COLOR-->
+}
+.menu .arrow {
+    font-size:10px;
+    line-height:0%;
+}
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:10px;
+    margin:5px;
+}
+ 
+.menu > ul > li > a {
+    padding:5px 40px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background: none;												<!--GREY COLOR-->
+}
+.sub-menu {
+    width:95%;
+    padding:10px 0px;
+    position:center;
+    top:75%;
+    margin-left:-60px;
+    z-index:4;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background: #64B681;												<!--GREY COLOR-->
+}
+
+.menu li:hover .sub-menu {
+    z-index:4;
+    opacity:1;
+    margin-top:10px;
+}
+.sub-menu li {
+    display:block;
+    font-size:25px;
+    margin-left:20px;
+}
+ 
+.sub-menu li a {
+    padding:10px 0px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background: none;
+    z-index:7;
+}
